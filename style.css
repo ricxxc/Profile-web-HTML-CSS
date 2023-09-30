@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    background-color: #00ccff;
+    margin-top: -10px;
+}
+.navbar ul{
+    list-style: none;
+    text-align: end;
+    margin-right: 40px;
+    margin-left: 83px;
+}
+.navbar ul li{
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+}
+.navbar ul li h2{
+    color: black;
+    border-style:solid;
+    border-radius: 4px;
+    background-color: azure;
+    border-color: azure;
+    position: absolute;
+    left: 80px;
+    top: 9px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 3px;
+    margin: -5px;
+}
+.header{
+    text-align: center;
+    color: black;
+    font-family: 'Staatliches', cursive;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 20px;
+}
+.main{
+    width: 55%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: justify;
+    background-color: aquamarine;
+    color: black;
+}
+footer {
+    padding: 20px 0;
+    margin-top: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    background-color: cornflowerblue;
+}
+
+.social{
+    font-family: 'Roboto', sans-serif;
+}
+.social ul{
+    list-style: none;
+    text-align: end;
+    margin-right: 40px;
+}
+.social ul li{
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+}
+.social ul li a{
+    text-decoration: none;
+    color: black;
+}
+.education{
+    margin-bottom: 10.4%;
+}
+.education table{
+    width: 60%;
+    margin: auto;
+    background-color: #eeeeee;
+    border-collapse: collapse;
+    border-spacing: 1;
+    border-radius: 6px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.education table tr td{
+    padding: 10px;
+}
+.education table thead tr{
+    font-size: 16px;
+    height: 60px;
+    color: black;
+    background-color: aquamarine;
+    font-weight: 600;
+}
+.education table tbody tr{
+    font-size: 14px;
+    height: 40px;
+    font-weight: 200;
+    border-bottom: 1px solid #eeeeee;
+}
+.main-skill{
+    width: 30%;
+    background-color: aquamarine;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 8px;
+}
+.main-skill p{
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'staatliches', cursive;
+}
+.container-skill{
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+}
+.skill{
+    color: #eeeeee;
+    font-weight: 500;
+    font-family: 'Staatliches', cursive;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.html{
+    width: 88%;
+    border-radius: 8px;
+    background-color: navy;
+}
+.css{
+    width: 52%;
+    border-radius: 8px;
+    background-color: navy;
+}.js{
+    width: 24%;
+    border-radius: 8px;
+    background-color: navy;
+}.java{
+    width: 45%;
+    border-radius: 8px;
+    background-color: navy;
+}.py{
+    width: 74%;
+    border-radius: 8px;
+    background-color: navy;
+}.cpp{
+    width: 37%;
+    border-radius: 8px;
+    background-color: navy;
+}
+.activity{
+    margin-bottom: 10.4%;
+}
+.activity table{
+    width: 60%;
+    margin: auto;
+    background-color: #eeeeee;
+    border-collapse: collapse;
+    border-spacing: 1;
+    border-radius: 6px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.activity table tr td{
+    padding: 10px;
+}
+.activity table thead tr{
+    font-size: 16px;
+    height: 60px;
+    color: black;
+    background-color: aquamarine;
+    font-weight: 600;
+}
+.activity table tbody tr{
+    font-size: 14px;
+    height: 40px;
+    font-weight: 200;
+    border-bottom: 1px solid #eeeeee;
+}
